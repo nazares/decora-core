@@ -1,0 +1,17 @@
+{
+    "name": "nazares/decora-core",
+    "description": "mvc core for decora framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergei Nazarenko",
+            "email": "nazares@icloud.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "nazares\\decoracore\\" : "."
+        }
+    }
+}
