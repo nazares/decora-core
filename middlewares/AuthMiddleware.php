@@ -1,15 +1,15 @@
 <?php
 
-namespace app\core\middlewares;
+namespace nazares\decora-core\middlewares;
 
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use nazares\decora-core\Application;
+use nazares\decora-core\exception\ForbiddenException;
 
 /**
  * Class AuthMiddleware
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package app\core\middlewares
+ * @package nazares\decora-core\middlewares
  */
 class AuthMiddleware extends BaseMiddleware
 {

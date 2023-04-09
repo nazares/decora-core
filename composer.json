@@ -8,5 +8,10 @@
             "email": "nazares@icloud.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "nazares\\decora-core\\" : "."
+        }
+    }
 }

@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core\form;
+namespace nazares\decora-core\form;
 
-use app\core\Model;
+use nazares\decora-core\Model;
 
 /**
  * Calss BaseField
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package app\core\form
+ * @package nazares\decora-core\form
  */
 abstract class BaseField
 {

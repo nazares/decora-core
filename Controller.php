@@ -6,15 +6,15 @@
  * Time: 5:12 PM
  */
 
-namespace app\core;
+namespace nazares\decora-core;
 
-use app\core\middlewares\BaseMiddleware;
+use nazares\decora-core\middlewares\BaseMiddleware;
 
 /**
  * Class Controller
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package app\core
+ * @package nazares\decora-core
  */
 class Controller
 {
@@ -22,7 +22,7 @@ class Controller
     public string $action = '';
     /**
      *
-     * @var app\core\middlewares\BaseMiddleware[]
+     * @var nazares\decora-core\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -44,7 +44,7 @@ class Controller
     /**
      * Get the value of middlewares
      *
-     * @return  app\core\middlewares\BaseMiddleware[]
+     * @return  nazares\decora-core\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares()
     {

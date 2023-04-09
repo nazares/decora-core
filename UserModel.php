@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace nazares\decora-core;
 
-use app\core\db\DbModel;
+use nazares\decora-core\db\DbModel;
 
 /**
  * Class UserModel
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package app\core
+ * @package nazares\decora-core
  */
 abstract class UserModel extends DbModel
 {

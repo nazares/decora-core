@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace nazares\decora-core;
 
 /**
  * Class Model
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package app\core
+ * @package nazares\decora-core
  */
 abstract class Model
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace nazares\decora-core;
 
-use app\core\db\Database;
+use nazares\decora-core\db\Database;
 
 /**
  * Class Application
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package app\core
+ * @package nazares\decora-core
  */
 class Application
 {
@@ -68,9 +68,9 @@ class Application
 
     /**
      * Get the value of controller
-     * @return \app\core\Controller
+     * @return \nazares\decora-core\Controller
      */
-    public function getController(): \app\core\Controller
+    public function getController(): \nazares\decora-core\Controller
     {
         return $this->controller;
     }
@@ -78,9 +78,9 @@ class Application
     /**
      * Set the value of controller
      *
-     * @param \app\core\Controller $controller
+     * @param \nazares\decora-core\Controller $controller
      */
-    public function setController(\app\core\Controller $controller): void
+    public function setController(\nazares\decora-core\Controller $controller): void
     {
         $this->controller = $controller;
     }

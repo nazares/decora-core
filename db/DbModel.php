@@ -1,16 +1,16 @@
 <?php
 
-namespace app\core\db;
+namespace nazares\decora-core\db;
 
 use AllowDynamicProperties;
-use app\core\Application;
-use app\core\Model;
+use nazares\decora-core\Application;
+use nazares\decora-core\Model;
 
 /**
  * Class DbModel
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package app\core
+ * @package nazares\decora-core
  */
 #[AllowDynamicProperties]
 abstract class DbModel extends Model

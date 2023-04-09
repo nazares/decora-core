@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core\exception;
+namespace nazares\decora-core\exception;
 
 /**
  * Class ForbiddenException
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package app\core\exception
+ * @package nazares\decora-core\exception
  */
 class ForbiddenException extends \Exception
 {

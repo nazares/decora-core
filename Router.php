@@ -6,15 +6,15 @@
  * Time: 10:54 AM
  */
 
-namespace app\core;
+namespace nazares\decora-core;
 
-use app\core\exception\NotFoundException;
+use nazares\decora-core\exception\NotFoundException;
 
 /**
  * Class Router
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package app\core
+ * @package nazares\decora-core
  */
 class Router
 {
@@ -24,8 +24,8 @@ class Router
     /**
      * Router constructor
      *
-     * @param \app\core\Request $request
-     * @param \app\core\Response $response
+     * @param \nazares\decora-core\Request $request
+     * @param \nazares\decora-core\Response $response
      */
     public function __construct(Request $request, Response $response)
     {
@@ -55,7 +55,7 @@ class Router
             return Application::$app->view->renderView($callback);
         }
         if (is_array($callback)) {
-            /** @var \app\core\Controller $controller */
+            /** @var \nazares\decora-core\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

@@ -1,12 +1,12 @@
 <?php
 
-namespace app\core;
+namespace nazares\decora-core;
 
 /**
  * Class Session
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package app\core
+ * @package nazares\decora-core
  */
 class Session
 {

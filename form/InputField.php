@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace nazares\decora-core\form;
 
-use app\core\Model;
+use nazares\decora-core\Model;
 
 class InputField extends BaseField
 {
