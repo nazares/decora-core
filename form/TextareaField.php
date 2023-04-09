@@ -1,12 +1,12 @@
 <?php
 
-namespace nazares\decora-core\form;
+namespace nazares\decoracore\form;
 
 /**
  * Class TextareaField
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package nazares\decora-core\form
+ * @package nazares\decoracore\form
  */
 class TextareaField extends BaseField
 {

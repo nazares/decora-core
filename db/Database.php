@@ -1,8 +1,8 @@
 <?php
 
-namespace nazares\decora-core\db;
+namespace nazares\decoracore\db;
 
-use nazares\decora-core\Application;
+use nazares\decoracore\Application;
 
 class Database
 {

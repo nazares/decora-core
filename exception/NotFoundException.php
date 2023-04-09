@@ -1,6 +1,6 @@
 <?php
 
-namespace nazares\decora-core\exception;
+namespace nazares\decoracore\exception;
 
 class NotFoundException extends \Exception
 {

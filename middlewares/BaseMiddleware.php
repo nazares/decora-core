@@ -1,11 +1,11 @@
 <?php
 
-namespace nazares\decora-core\middlewares;
+namespace nazares\decoracore\middlewares;
 
 /**
  * Class BaseMiddleware
  *
- * @package nazares\decora-core\middlewares
+ * @package nazares\decoracore\middlewares
  */
 abstract class BaseMiddleware
 {

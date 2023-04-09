@@ -1,12 +1,12 @@
 <?php
 
-namespace nazares\decora-core;
+namespace nazares\decoracore;
 
 /**
  * Class Response
  *
  * @author Sergei Nazarenko <nazares@icloud.com>
- * @package nazares\decora-core
+ * @package nazares\decoracore
  */
 class Response
 {
