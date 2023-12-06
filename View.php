@@ -32,7 +32,7 @@ class View
             $layout = Application::$app->controller->layout;
         }
         ob_start();
-        include_once Application::$ROOT_DIR . "/views/layouts/main.phtml";
+        include_once Application::$ROOT_DIR . "/views/layouts/$layout.phtml";
         return ob_get_clean();
     }
 
