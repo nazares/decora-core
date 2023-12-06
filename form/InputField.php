@@ -11,7 +11,7 @@ class InputField extends BaseField
     public const TYPE_NUMBER = 'number';
 
     public string $type;
-    public string $placeholder;
+    public string $placeholder = '';
 
     public function __construct(Model $model, string $attribute)
     {
