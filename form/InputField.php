@@ -11,6 +11,7 @@ class InputField extends BaseField
     public const TYPE_NUMBER = 'number';
 
     public string $type;
+    public string $placeholder;
 
     public function __construct(Model $model, string $attribute)
     {
@@ -21,6 +22,12 @@ class InputField extends BaseField
     public function passwordField()
     {
         $this->type = self::TYPE_PASSWORD;
+        return $this;
+    }
+
+    public function placeholder(string $placeholder)
+    {
+        $this->placeholder = $placeholder;
         return $this;
     }
 
