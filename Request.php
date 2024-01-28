@@ -10,14 +10,15 @@ namespace nazares\decoracore;
  */
 class Request
 {
+    private array $routeParams = [];
     public function getPath()
     {
-        $path = $_SERVER['REQUEST_URI'] ?? false;
+        $path = $_SERVER['REQUEST_URI'];
         $position = strpos($path, '?');
-        if ($position === false) {
-            return $path;
+        if ($position !== false) {
+            return substr($path, 0, $position);
         }
-        return substr($path, 0, $position);
+        return $path;
     }
 
     public function method()
@@ -49,5 +50,21 @@ class Request
             }
         }
         return $body;
+    }
+
+    public function setRouteParams($params)
+    {
+        $this->routeParams = $params;
+        return $this;
+    }
+
+    public function getRouteParams()
+    {
+        return $this->routeParams;
+    }
+
+    public function getRouteParam($param, $default = null)
+    {
+        return $this->routeParams[$param] ?? $default;
     }
 }
