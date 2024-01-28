@@ -48,7 +48,7 @@ class Router
         return $this->routeMap[$method] ?? [];
     }
 
-    public function getCallback(): ?callable
+    public function getCallback()
     {
         $method = $this->request->method();
         $path = $this->request->getPath();
@@ -91,7 +91,7 @@ class Router
         $callback = $this->routeMap[$method][$path] ?? false;
         if (!$callback) {
             $callback = $this->getCallback();
-            if ($callback === false) {
+            if ($callback === null) {
                 throw new NotFoundException();
             }
         }
